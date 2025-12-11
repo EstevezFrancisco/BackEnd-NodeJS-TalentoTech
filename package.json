@@ -1,0 +1,16 @@
+{
+  "name": "entrega-final",
+  "version": "1.0.0",
+  "description": "Entrega de proyecto Back-End de Talento Tech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "Francisco Estevez",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
