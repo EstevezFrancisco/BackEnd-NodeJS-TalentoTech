@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Bienvenido!");
+  res.json({ message: "Bienvenido!" });
 });
 
 app.use("/auth", authRouter);
